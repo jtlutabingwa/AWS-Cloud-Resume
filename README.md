@@ -110,19 +110,6 @@ aws cloudfront create-invalidation \
  
 ---
  
-## Potential Enhancements
- 
-- [ ] **Custom domain** — Register a domain in Route 53 and add it as an alternate domain name (CNAME) on the CloudFront distribution
-- [ ] **ACM certificate** — Provision a free SSL/TLS certificate through AWS Certificate Manager for the custom domain
-- [ ] **Origin Access Control (OAC)** — Restrict the S3 bucket so it's only accessible through CloudFront, blocking direct S3 URLs
-- [ ] **CI/CD pipeline** — Set up GitHub Actions or AWS CodePipeline to automatically sync updates to S3 and invalidate the CloudFront cache on push
-- [ ] **Visitor counter** — Add a serverless hit counter using API Gateway + Lambda + DynamoDB (Cloud Resume Challenge)
-- [ ] **Infrastructure as Code** — Define all resources in a CloudFormation template or Terraform configuration for reproducible deployments
-- [ ] **Access logging** — Enable CloudFront standard logging to an S3 bucket for analytics on who's viewing the resume
-- [ ] **WAF integration** — Attach AWS WAF to the CloudFront distribution for rate limiting and request filtering
- 
----
- 
 ## Technologies
  
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
