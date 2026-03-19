@@ -1,5 +1,3 @@
-# AWS-Cloud-Projects
-
 # ☁️ Cloud Resume — Hosted on AWS
  
 **A static resume deployed on Amazon Web Services using S3 for object storage and CloudFront as a global CDN, demonstrating core AWS infrastructure skills.**
