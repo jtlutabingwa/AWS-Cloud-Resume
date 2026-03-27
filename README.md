@@ -1,4 +1,4 @@
-# Cloud Resume — Hosted on AWS
+# Cloud Resume — AWS Cloud Club
  
 Deployed a static resume on AWS using S3 for object storage and CloudFront as a global CDN. This was my first AWS project to get hands-on with core cloud infrastructure.
  
